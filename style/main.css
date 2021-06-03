@@ -26,7 +26,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family:'Brush Script MT';
     font-size: 40px;
 }
 
@@ -41,20 +41,6 @@ header nav a:hover{
 }
 
 /*Filme Principal*/
-
-.filme_principal{
-    font-size: 18px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/01serie-the-chosen.jpg');
-
-    height: 500px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-}
 
 .filme_principal .descricao{
     margin-top: 10px;
@@ -79,6 +65,10 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 
+}
+
+.link-botao{
+    text-decoration: none;
 }
 
 .botao:hover{
